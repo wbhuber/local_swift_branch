@@ -174,10 +174,6 @@ Getting the code
 
         git clone https://github.com/openstack/swift.git
 
-  #. Install swift's test dependencies::
-
-        sudo pip install -r swift/test-requirements.txt
-
   #. Build a development installation of swift::
 
         cd $HOME/swift; sudo python setup.py develop; cd -
@@ -186,6 +182,10 @@ Getting the code
      installation of swift fails::
 
         sudo pip install -U xattr
+
+  #. Install swift's test dependencies::
+
+        sudo pip install -r swift/test-requirements.txt
 
 ----------------
 Setting up rsync
